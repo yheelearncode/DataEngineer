@@ -1,0 +1,28 @@
+# prometheus.yml
+global:
+  scrape_interval: 15s # By default, scrape targets every 15 seconds.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds.
+
+# A scrape configuration for Prometheus itself.
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'pushgateway'
+    honor_labels: true # Pushgateway에서 보낸 레이블을 유지
+    static_configs:
+      - targets: ['pushgateway:9091'] # Docker Compose 서비스 이름과 포트
+
+  - job_name: 'stock_db_metrics' # PostgreSQL exporter가 있다면 추가
+    static_configs:
+      # exporter가 stock_db 컨테이너와 함께 실행된다면
+      # - targets: ['stock_db:9187'] # PostgreSQL exporter의 기본 포트
+      # 단, stock_db 자체는 exporter가 없으므로 이 job은 주석처리하거나 제거해야 할 수 있습니다.
+      # 만약 node_exporter를 설치했다면:
+      # - targets: ['stock_db:9100']
+
+alerting:
+  alertmanagers:
+  - static_configs:
+    - targets: ['alertmanager:9093'] # Docker Compose 서비스 이름과 포트
