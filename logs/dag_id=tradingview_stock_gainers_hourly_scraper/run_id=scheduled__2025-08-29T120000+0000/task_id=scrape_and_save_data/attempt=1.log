@@ -1,0 +1,35 @@
+[2025-08-29T13:00:01.915+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-29T13:00:01.956+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tradingview_stock_gainers_hourly_scraper.scrape_and_save_data scheduled__2025-08-29T12:00:00+00:00 [queued]>
+[2025-08-29T13:00:01.975+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tradingview_stock_gainers_hourly_scraper.scrape_and_save_data scheduled__2025-08-29T12:00:00+00:00 [queued]>
+[2025-08-29T13:00:01.977+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 4
+[2025-08-29T13:00:01.999+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): scrape_and_save_data> on 2025-08-29 12:00:00+00:00
+[2025-08-29T13:00:02.008+0000] {standard_task_runner.py:63} INFO - Started process 2256 to run task
+[2025-08-29T13:00:02.012+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tradingview_stock_gainers_hourly_scraper', 'scrape_and_save_data', 'scheduled__2025-08-29T12:00:00+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/tradingview_scraper_dag.py', '--cfg-path', '/tmp/tmpsaxlk1oh']
+[2025-08-29T13:00:02.016+0000] {standard_task_runner.py:91} INFO - Job 116: Subtask scrape_and_save_data
+[2025-08-29T13:00:02.035+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:195: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-08-29T13:00:02.076+0000] {task_command.py:426} INFO - Running <TaskInstance: tradingview_stock_gainers_hourly_scraper.scrape_and_save_data scheduled__2025-08-29T12:00:00+00:00 [running]> on host 587fd9f597ce
+[2025-08-29T13:00:02.185+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tradingview_stock_gainers_hourly_scraper' AIRFLOW_CTX_TASK_ID='scrape_and_save_data' AIRFLOW_CTX_EXECUTION_DATE='2025-08-29T12:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-08-29T12:00:00+00:00'
+[2025-08-29T13:00:02.186+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-29T13:00:02.209+0000] {logging_mixin.py:188} INFO - 스크래핑 및 데이터 저장 작업을 시작합니다...
+[2025-08-29T13:00:02.215+0000] {logging_mixin.py:188} INFO - PostgreSQL 연결 성공!
+[2025-08-29T13:00:02.217+0000] {logging_mixin.py:188} INFO - 테이블 존재 여부 확인 및 생성 완료.
+[2025-08-29T13:00:03.489+0000] {logging_mixin.py:188} INFO - Selenium Chrome 드라이버 초기화 성공 (Headless 모드).
+[2025-08-29T13:00:06.116+0000] {logging_mixin.py:188} INFO - URL 접속: https://kr.tradingview.com/markets/stocks-usa/market-movers-gainers/
+[2025-08-29T13:00:16.973+0000] {logging_mixin.py:188} INFO - 페이지 소스 파싱 완료.
+[2025-08-29T13:00:17.006+0000] {logging_mixin.py:188} INFO - [저장 준비] Symbol: EAF, Name: EAF − GrafTech International Ltd., Change: 914.97%
+[2025-08-29T13:00:17.008+0000] {logging_mixin.py:188} INFO - [저장 준비] Symbol: SEGG, Name: SEGG − Lottery.com, Inc., Change: 845.09%
+[2025-08-29T13:00:17.010+0000] {logging_mixin.py:188} INFO - [저장 준비] Symbol: CWD, Name: CWD − CaliberCos Inc., Change: 162.35%
+[2025-08-29T13:00:17.011+0000] {logging_mixin.py:188} INFO - [저장 준비] Symbol: OPAD, Name: OPAD − Offerpad Solutions Inc., Change: 85.42%
+[2025-08-29T13:00:17.012+0000] {logging_mixin.py:188} INFO - [저장 준비] Symbol: AGFY, Name: AGFY − Agrify Corporation, Change: 50.33%
+[2025-08-29T13:00:17.015+0000] {logging_mixin.py:188} INFO - 모든 데이터 저장 완료 및 커밋 성공!
+[2025-08-29T13:00:17.103+0000] {logging_mixin.py:188} INFO - Selenium 드라이버 종료.
+[2025-08-29T13:00:17.105+0000] {logging_mixin.py:188} INFO - PostgreSQL 커서 닫기.
+[2025-08-29T13:00:17.106+0000] {logging_mixin.py:188} INFO - PostgreSQL 연결 닫기.
+[2025-08-29T13:00:17.108+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-08-29T13:00:17.110+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-29T13:00:17.127+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=tradingview_stock_gainers_hourly_scraper, task_id=scrape_and_save_data, execution_date=20250829T120000, start_date=20250829T130001, end_date=20250829T130017
+[2025-08-29T13:00:17.176+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-08-29T13:00:17.205+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-29T13:00:17.210+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

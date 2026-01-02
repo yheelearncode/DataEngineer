@@ -1,0 +1,70 @@
+[2025-09-01T06:19:35.217+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:19:35.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:19:35.225+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:19:35.224+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:19:35.604+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:19:35.820+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:19:35.819+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:19:35.860+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:19:35.860+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 05:00:00+00:00, run_after=2025-09-01 06:00:00+00:00
+[2025-09-01T06:19:35.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.691 seconds
+[2025-09-01T06:20:06.410+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:20:06.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:20:06.420+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:20:06.418+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:20:06.763+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:20:06.808+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:20:06.808+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:20:06.855+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:20:06.855+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:20:06.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.531 seconds
+[2025-09-01T06:20:37.759+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:20:37.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:20:37.766+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:20:37.765+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:20:38.042+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:20:38.078+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:20:38.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:20:38.100+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:20:38.100+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:20:38.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.382 seconds
+[2025-09-01T06:21:08.653+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:21:08.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:21:08.657+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:21:08.656+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:21:08.835+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:21:08.864+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:21:08.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:21:08.888+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:21:08.888+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:21:08.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.264 seconds
+[2025-09-01T06:21:39.841+0000] {processor.py:161} INFO - Started process (PID=76) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:21:39.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:21:39.846+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:21:39.846+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:21:40.135+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:21:40.179+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:21:40.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:21:40.207+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:21:40.207+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:21:40.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.409 seconds
+[2025-09-01T06:22:10.760+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:22:10.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:22:10.766+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:22:10.766+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:22:10.988+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:22:11.017+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:22:11.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:22:11.039+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:22:11.039+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:22:11.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.324 seconds
+[2025-09-01T06:23:07.865+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:23:07.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:23:07.870+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:23:07.869+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:23:08.111+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:23:08.302+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:23:08.301+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:23:08.341+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:23:08.340+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:23:08.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.544 seconds
+[2025-09-01T06:23:38.557+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:23:38.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:23:38.569+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:23:38.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:23:38.887+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:23:38.942+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:23:38.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:23:38.977+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:23:38.976+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:23:39.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.481 seconds
+[2025-09-01T06:24:09.261+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:24:09.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:24:09.271+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:24:09.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:24:09.614+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:24:09.649+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:24:09.648+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:24:09.677+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:24:09.676+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:24:09.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.454 seconds
+[2025-09-01T06:24:40.257+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:24:40.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tradingview_scraper_dag.py for tasks to queue
+[2025-09-01T06:24:40.263+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:24:40.262+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:24:40.506+0000] {processor.py:840} INFO - DAG(s) 'tradingview_stock_gainers_hourly_scraper' retrieved from /opt/airflow/dags/tradingview_scraper_dag.py
+[2025-09-01T06:24:40.543+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:24:40.543+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-01T06:24:40.571+0000] {logging_mixin.py:188} INFO - [2025-09-01T06:24:40.570+0000] {dag.py:3954} INFO - Setting next_dagrun for tradingview_stock_gainers_hourly_scraper to 2025-09-01 06:00:00+00:00, run_after=2025-09-01 07:00:00+00:00
+[2025-09-01T06:24:40.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tradingview_scraper_dag.py took 0.355 seconds
